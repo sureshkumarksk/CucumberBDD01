@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>CucumberBDD01</td>
+            <td>14 Jun 2022, 15:53</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">TagStepDef.user_Can_See_the_Order_Id_and_Other_Details()</td>
+              <td>1</td>
+              <td class="duration" data-value="5042075600">5.042</td>
+              <td class="duration" data-value="5042075600">5.042</td>
+              <td class="duration" data-value="5042075600">5.042</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Click_the_Search_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1174900">0.001</td>
+              <td class="duration" data-value="1174900">0.001</td>
+              <td class="duration" data-value="1174900">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Enter_The_Valid_UserName_And_Valid_PassWordAnd_User_Click_The_login_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1280718300">1.280</td>
+              <td class="duration" data-value="1280718300">1.280</td>
+              <td class="duration" data-value="1280718300">1.280</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Enter_the_All_the_Details_With_In_the_text_Box_and_Select_the_Drop_Down_Fields()</td>
+              <td>1</td>
+              <td class="duration" data-value="105609000">0.105</td>
+              <td class="duration" data-value="105609000">0.105</td>
+              <td class="duration" data-value="105609000">0.105</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Enter_the_Datas_In_the_Given_Text_Box_as_Well_As_Drop_Down_Fields()</td>
+              <td>1</td>
+              <td class="duration" data-value="53502000">0.053</td>
+              <td class="duration" data-value="53502000">0.053</td>
+              <td class="duration" data-value="53502000">0.053</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Launch_the_Webbrowser_and_hit_the_Url()</td>
+              <td>1</td>
+              <td class="duration" data-value="17957531800">17.957</td>
+              <td class="duration" data-value="17957531800">17.957</td>
+              <td class="duration" data-value="17957531800">17.957</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Select_the_Hotel_And_Click_the_Hotel_By_using_Radiobutton()</td>
+              <td>1</td>
+              <td class="duration" data-value="38054400">0.038</td>
+              <td class="duration" data-value="38054400">0.038</td>
+              <td class="duration" data-value="38054400">0.038</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Verify_the_Book_Hotel_page_Is_Displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="782900">0.000</td>
+              <td class="duration" data-value="782900">0.000</td>
+              <td class="duration" data-value="782900">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Verify_the_Login_Feature_As_should_Be_open_Succesfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="1499400">0.001</td>
+              <td class="duration" data-value="1499400">0.001</td>
+              <td class="duration" data-value="1499400">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_Verify_the_Search_page_Should_Be_Displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="1388100">0.001</td>
+              <td class="duration" data-value="1388100">0.001</td>
+              <td class="duration" data-value="1388100">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_click_the_Booknow_Button_As_Well_As_Verify_the_cancel_Button_Should_Be_Displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="1206800">0.001</td>
+              <td class="duration" data-value="1206800">0.001</td>
+              <td class="duration" data-value="1206800">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_click_the_Continue_Button()</td>
+              <td>1</td>
+              <td class="duration" data-value="1128100">0.001</td>
+              <td class="duration" data-value="1128100">0.001</td>
+              <td class="duration" data-value="1128100">0.001</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_click_the_Log_out()</td>
+              <td>1</td>
+              <td class="duration" data-value="31456900">0.031</td>
+              <td class="duration" data-value="31456900">0.031</td>
+              <td class="duration" data-value="31456900">0.031</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_verify_the_Logout_Button_Should_Be_displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="817900">0.000</td>
+              <td class="duration" data-value="817900">0.000</td>
+              <td class="duration" data-value="817900">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_verify_the_My_liternery_Button_as_well_as_Search_hotel_Button_is_Displayed_in_the_below_the_details()</td>
+              <td>1</td>
+              <td class="duration" data-value="752000">0.000</td>
+              <td class="duration" data-value="752000">0.000</td>
+              <td class="duration" data-value="752000">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_verify_the_logout_Was_Succesfully()</td>
+              <td>1</td>
+              <td class="duration" data-value="2629900">0.002</td>
+              <td class="duration" data-value="2629900">0.002</td>
+              <td class="duration" data-value="2629900">0.002</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_verify_the_the_Adactin_webpage_Should_be_Displayed()</td>
+              <td>1</td>
+              <td class="duration" data-value="2180800">0.002</td>
+              <td class="duration" data-value="2180800">0.002</td>
+              <td class="duration" data-value="2180800">0.002</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TagStepDef.user_verify_the_while_click_the_Search_Button_the_page_should_Be_Move_to_Next_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="952500">0.000</td>
+              <td class="duration" data-value="952500">0.000</td>
+              <td class="duration" data-value="952500">0.000</td>
+              <td class="failed">0.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>18</td>
+            <td>18</td>
+            <td class="duration">1.362</td>
+            <td class="duration">17.957</td>
+            <td class="duration">24.523</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

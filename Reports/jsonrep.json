@@ -1,0 +1,339 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-14T10:22:43.139Z",
+        "line": 4,
+        "name": "TC_01 Validate the Adactin Hotel Webpage with Vaild UserName and valid PassWord",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel-webapplication-and-to-check-weather-the-application-is-properly-working-or-not;tc-01-validate-the-adactin-hotel-webpage-with-vaild-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17957531800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Webbrowser and hit the Url",
+            "match": {
+              "location": "TagStepDef.user_Launch_the_Webbrowser_and_hit_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2180800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User verify the the Adactin webpage Should be Displayed",
+            "match": {
+              "location": "TagStepDef.user_verify_the_the_Adactin_webpage_Should_be_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1280718300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter The Valid UserName And Valid PassWordAnd User Click The login Button",
+            "match": {
+              "location": "TagStepDef.user_Enter_The_Valid_UserName_And_Valid_PassWordAnd_User_Click_The_login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1499400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Verify the Login Feature As should Be open Succesfully",
+            "match": {
+              "location": "TagStepDef.user_Verify_the_Login_Feature_As_should_Be_open_Succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T10:23:02.491Z",
+        "line": 11,
+        "name": "TC_02 Validate the Search page And Enter the given Below Details",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel-webapplication-and-to-check-weather-the-application-is-properly-working-or-not;tc-02-validate-the-search-page-and-enter-the-given-below-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1388100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Verify the Search page Should Be Displayed",
+            "match": {
+              "location": "TagStepDef.user_Verify_the_Search_page_Should_Be_Displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#location\"}\n  (Session info: chrome\u003d102.0.5005.63)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027DESKTOP-35OCICB\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d49b2bddff436ca4cf91d3380230b01b, findElement {using\u003did, value\u003dlocation}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\sures\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63524/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d49b2bddff436ca4cf91d3380230b01b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:46)\r\n\tat org.Baseclass.Baseclass01.selectoptionbyindex(Baseclass01.java:120)\r\n\tat org.adactian.TagStepDef.user_Enter_the_All_the_Details_With_In_the_text_Box_and_Select_the_Drop_Down_Fields(TagStepDef.java:64)\r\n\tat ✽.User Enter the \tAll the Details With In the text Box and Select the Drop Down Fields(file:src/test/resources/FeatureTag/Tag.feature:13)\r\n",
+              "duration": 105609000,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User Enter the \tAll the Details With In the text Box and Select the Drop Down Fields",
+            "match": {
+              "location": "TagStepDef.user_Enter_the_All_the_Details_With_In_the_text_Box_and_Select_the_Drop_Down_Fields()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1174900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User Click the Search Button",
+            "match": {
+              "location": "TagStepDef.user_Click_the_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 952500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User verify the while click the Search Button the page should Be Move to Next page",
+            "match": {
+              "location": "TagStepDef.user_verify_the_while_click_the_Search_Button_the_page_should_Be_Move_to_Next_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T10:23:02.636Z",
+        "line": 18,
+        "name": "TC_03 Validate the Select Hotel Page",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel-webapplication-and-to-check-weather-the-application-is-properly-working-or-not;tc-03-validate-the-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#radiobutton_0\"}\n  (Session info: chrome\u003d102.0.5005.63)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027DESKTOP-35OCICB\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d49b2bddff436ca4cf91d3380230b01b, findElement {using\u003did, value\u003dradiobutton_0}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\sures\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63524/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d49b2bddff436ca4cf91d3380230b01b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat org.Baseclass.Baseclass01.click(Baseclass01.java:93)\r\n\tat org.adactian.TagStepDef.user_Select_the_Hotel_And_Click_the_Hotel_By_using_Radiobutton(TagStepDef.java:98)\r\n\tat ✽.User Select the Hotel And Click the Hotel By using Radiobutton(file:src/test/resources/FeatureTag/Tag.feature:19)\r\n",
+              "duration": 38054400,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "User Select the Hotel And Click the Hotel By using Radiobutton",
+            "match": {
+              "location": "TagStepDef.user_Select_the_Hotel_And_Click_the_Hotel_By_using_Radiobutton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1128100,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User click the Continue Button",
+            "match": {
+              "location": "TagStepDef.user_click_the_Continue_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T10:23:02.691Z",
+        "line": 23,
+        "name": "TC_04 Validate the Book Hotel Page And Enter the Given Below Details",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel-webapplication-and-to-check-weather-the-application-is-properly-working-or-not;tc-04-validate-the-book-hotel-page-and-enter-the-given-below-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#first_name\"}\n  (Session info: chrome\u003d102.0.5005.63)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027DESKTOP-35OCICB\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d49b2bddff436ca4cf91d3380230b01b, findElement {using\u003did, value\u003dfirst_name}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\sures\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63524/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d49b2bddff436ca4cf91d3380230b01b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.Baseclass.Baseclass01.sendkeys(Baseclass01.java:110)\r\n\tat org.adactian.TagStepDef.user_Enter_the_Datas_In_the_Given_Text_Box_as_Well_As_Drop_Down_Fields(TagStepDef.java:115)\r\n\tat ✽.User Enter the Datas In the Given Text Box as Well As Drop Down Fields(file:src/test/resources/FeatureTag/Tag.feature:24)\r\n",
+              "duration": 53502000,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "User Enter the Datas In the Given Text Box as Well As Drop Down Fields",
+            "match": {
+              "location": "TagStepDef.user_Enter_the_Datas_In_the_Given_Text_Box_as_Well_As_Drop_Down_Fields()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1206800,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "User click the Booknow  Button As Well As Verify the cancel Button Should Be Displayed",
+            "match": {
+              "location": "TagStepDef.user_click_the_Booknow_Button_As_Well_As_Verify_the_cancel_Button_Should_Be_Displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782900,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User Verify the Book Hotel page Is Displayed",
+            "match": {
+              "location": "TagStepDef.user_Verify_the_Book_Hotel_page_Is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T10:23:02.761Z",
+        "line": 29,
+        "name": "TC-05 Validate the Booking Conformation page",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel-webapplication-and-to-check-weather-the-application-is-properly-working-or-not;tc-05-validate-the-booking-conformation-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#order_no\"}\n  (Session info: chrome\u003d102.0.5005.63)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027DESKTOP-35OCICB\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d49b2bddff436ca4cf91d3380230b01b, findElement {using\u003did, value\u003dorder_no}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\sures\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63524/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d49b2bddff436ca4cf91d3380230b01b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.getAttribute(Unknown Source)\r\n\tat org.Baseclass.Baseclass01.getattribute(Baseclass01.java:133)\r\n\tat org.adactian.TagStepDef.user_Can_See_the_Order_Id_and_Other_Details(TagStepDef.java:153)\r\n\tat ✽.User Can See the Order Id and Other Details(file:src/test/resources/FeatureTag/Tag.feature:30)\r\n",
+              "duration": 5042075600,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "User Can See the Order Id and Other Details",
+            "match": {
+              "location": "TagStepDef.user_Can_See_the_Order_Id_and_Other_Details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 817900,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User verify the Logout Button Should Be displayed",
+            "match": {
+              "location": "TagStepDef.user_verify_the_Logout_Button_Should_Be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 752000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "user verify the My liternery Button as well as Search hotel Button is Displayed in the below the details",
+            "match": {
+              "location": "TagStepDef.user_verify_the_My_liternery_Button_as_well_as_Search_hotel_Button_is_Displayed_in_the_below_the_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-14T10:23:07.815Z",
+        "line": 35,
+        "name": "TC_06 Validate the logout Button",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel-webapplication-and-to-check-weather-the-application-is-properly-working-or-not;tc-06-validate-the-logout-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#logout\"}\n  (Session info: chrome\u003d102.0.5005.63)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.3\u0027, revision: \u00277b1ebf28ef\u0027\nSystem info: host: \u0027DESKTOP-35OCICB\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d49b2bddff436ca4cf91d3380230b01b, findElement {using\u003did, value\u003dlogout}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\sures\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63524}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63524/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d49b2bddff436ca4cf91d3380230b01b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)\r\n\tat org.adactian.TagStepDef.user_click_the_Log_out(TagStepDef.java:185)\r\n\tat ✽.User click the Log out(file:src/test/resources/FeatureTag/Tag.feature:36)\r\n",
+              "duration": 31456900,
+              "status": "failed"
+            },
+            "line": 36,
+            "name": "User click the Log out",
+            "match": {
+              "location": "TagStepDef.user_click_the_Log_out()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2629900,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "User verify the logout Was Succesfully",
+            "match": {
+              "location": "TagStepDef.user_verify_the_logout_Was_Succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Adactin Hotel WebApplication And to Check Weather the Application is Properly Working or not",
+    "description": "",
+    "id": "to-validate-the-adactin-hotel-webapplication-and-to-check-weather-the-application-is-properly-working-or-not",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureTag/Tag.feature",
+    "tags": []
+  }
+]
